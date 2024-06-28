@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to PyXML’s documentation! &mdash; PyXML  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5929fcd5"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Import Data" href="import_data.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            PyXML
+              <img src="_static/pyxml_logo_main.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Import Data</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="import_data.html">API Import Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Preprocessing</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="preprocessing.html">API Preprocessing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_imputation.html">Data Imputation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="train_test_split.html">Train/Test Split</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_scaling.html">Data Scaling</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Dataset Property</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dataset_property.html">API Dataset Property</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Training</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="training.html">API Training</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Evaluate</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="evaluate.html">API Evaluate</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">XML</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="explainable_machine_learning.html">API XML</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Credits</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="credits.html">API Credits</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">PyXML</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to PyXML’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-pyxml-s-documentation">
+<h1>Welcome to PyXML’s documentation!<a class="headerlink" href="#welcome-to-pyxml-s-documentation" title="Link to this heading"></a></h1>
+<a class="reference internal image-reference" href="_images/pyxml_logo_main.png"><img alt="_images/pyxml_logo_main.png" class="align-center" src="_images/pyxml_logo_main.png" style="width: 300px;" /></a>
+<br><br><p><strong>PyXML (Python eXplainable Machine Learning)</strong> is a software tool developed
+on Python, it is a modular software that allows users to perform complete machine learning pipeline without
+requiring any additional tool. The main difference of PyXML software
+from its counterparts is that PyXML allows data loading, data imputation
+(completion of missing data), data scaling, fitting of different Machine
+Learning (ML) algorithms and hyperparameter tuning of these methods and
+interpretation of the results with eXplainable Machine Learning (XML) algorithms
+in a single Graphical User Interface (GUI). PyXML, a Python GUI software, was developed to automate
+the ML application process and can be used by researchers,
+domain experts and end users to explain the results of machine learning
+models and make decisions.  It is written with Python programming language
+and GUI is created with Tkinter framework. Tkinter is the Python’s built-in
+GUI toolkit framework and it is an open-source. Since PyXML is written with
+Tkinter framework, it is cross-platform (operate on Windows, macOS, and Linux),
+do not require any programming experience, simple and easy to modify (user’s
+may make modification).</p>
+<section id="highlights">
+<h2>Highlights<a class="headerlink" href="#highlights" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>A comprehensive software solution for implementing the entire ML process.</p></li>
+<li><p>Developed using Tkinter, Python’s standard GUI development framework.</p></li>
+<li><p>Designed with contemporary software engineering principles in mind.</p></li>
+<li><p>Facilitates the utilization of widely adopted ML techniques and allows for the tuning of method-specific hyperparameters.</p></li>
+<li><p>Tailored to support state-of-the-art XML methods.</p></li>
+</ul>
+<p><a class="reference external" href="https://www.w3schools.com/cs/index.php">GitHub repository</a>
+includes all the source code and associated resources for the PyXML software.</p>
+</section>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Data loading</strong>: Allows users to load and see the content of the data set.</p></li>
+<li><p><strong>Preprocessing</strong>: Enables users to prepare the dataset by applying preprocessing operations such as data imputation, training/test split and data scaling to the uploaded dataset.</p></li>
+<li><p><strong>Dataset Property</strong>: Provides visual and statistical information about the dataset.</p></li>
+<li><p><strong>Training</strong>: Allows machine learning methods to be applied in combination with hyperparameter tuning</p></li>
+<li><p><strong>Evaluate</strong>: Displays the results of the created machine learning model.</p></li>
+<li><p><strong>XML</strong>: Offers the generated model outputs to be explained with different XML methods.</p></li>
+<li><p><strong>Credits</strong>: Presents information about the software.</p></li>
+</ul>
+</section>
+<section id="requirements-installation">
+<h2>Requirements &amp; Installation<a class="headerlink" href="#requirements-installation" title="Link to this heading"></a></h2>
+<p><strong>Step 1</strong>: Download and install the most recent version of Python from the
+given <a class="reference external" href="https://www.python.org/downloads/">link</a>.</p>
+<p>It is advisable to use Python version 3.8 or later. To verify the installation of Python3, open the terminal on Linux/MacOS or PowerShell on Windows, then execute the subsequent command:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>Once Python is successfully installed, users need to install various
+modules necessary for running the PyXML software.</p>
+<p><strong>Step 2</strong>: Install all the requirements before proceeding to next steps:</p>
+<table class="docutils align-default" id="id11">
+<caption><span class="caption-text"><strong>Mandatory Dependencies</strong></span><a class="headerlink" href="#id11" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 27.3%" />
+<col style="width: 27.3%" />
+<col style="width: 45.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Software</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Official Installation Guide</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.python.org/">Python</a></p></td>
+<td><p>&gt;= 3.8</p></td>
+<td><p><a class="reference external" href="https://www.python.org/downloads/">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://docs.python.org/3/library/tkinter.html">Tkinter</a></p></td>
+<td><p>&gt;= 8.6</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://numpy.org">NumPy</a></p></td>
+<td><p>&gt;= 1.24.3</p></td>
+<td><p><a class="reference external" href="https://numpy.org/install/">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://scikit-learn.org/stable/">Scikit-learn</a></p></td>
+<td><p>&gt;= 1.2.2</p></td>
+<td><p><a class="reference external" href="https://scikit-learn.org/stable/install.html">Link</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://matplotlib.org">Matplotlib</a></p></td>
+<td><p>== 3.7.3</p></td>
+<td><p><a class="reference external" href="https://matplotlib.org/stable/install/index.html">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://seaborn.pydata.org">Seaborn</a></p></td>
+<td><p>&gt;= 0.12.2</p></td>
+<td><p><a class="reference external" href="https://seaborn.pydata.org/installing.html">Link</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://docs.python.org/3/library/math.html">Math</a></p></td>
+<td><p>&gt;= 0.22</p></td>
+<td><p><a class="reference external" href="https://pypi.org/project/python-math/">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://docs.python.org/3/library/webbrowser.html">Webbrowser</a></p></td>
+<td><p>&gt;= 0.2.2</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://xgboost.readthedocs.io/en/stable/python/index.html">XGBoost</a></p></td>
+<td><p>&gt;= 1.7.6</p></td>
+<td><p><a class="reference external" href="https://xgboost.readthedocs.io/en/stable/install.html">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://github.com/marcotcr/lime">LIME</a></p></td>
+<td><p>&gt;= 0.2.0.1</p></td>
+<td><p><a class="reference external" href="https://pypi.org/project/lime/">Link</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://shap.readthedocs.io/en/latest/">SHAP</a></p></td>
+<td><p>&gt;= 0.43.0</p></td>
+<td><p><a class="reference external" href="https://pypi.org/project/shap/">Link</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://github.com/marcotcr/anchor">ANCHOR</a></p></td>
+<td><p>&gt;= 0.0.2.0</p></td>
+<td><p><a class="reference external" href="https://pypi.org/project/anchor/">Link</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>Make sure the packages are installed in the versions specified above. To check the
+version of a module in Python, you can use the version attribute of the module. The
+version of any Python module can be found by running the following code snippet.
+Replace module_name with the name of the module whose version you want to check.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="p">[</span><span class="n">packagename</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">module_name</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You should install all the python3 modules using the</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip3</span> <span class="n">install</span> <span class="p">[</span><span class="n">packagename</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>or alternatively using</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="p">[</span><span class="n">packagename</span><span class="p">]</span>
+</pre></div>
+</div>
+<p><strong>Step 3</strong>: How to use PyXML?</p>
+<ul class="simple">
+<li><p>Download the source code either with “Open with GitHub Desktop” or “Download zip”.</p></li>
+<li><p>Once the .zip file is downloaded from the GitHub, extract the contents onto a desired folder.</p></li>
+<li><p>Open Spyder IDE, navigate to that folder in Spyder IDE and run the “pyxml.py” and “logo.png” file which is in the extracted folders directory. Note that PyXML is only test with the Spyder IDE. It may also work with other IDEs, but it has been tested with only Spyder.</p></li>
+</ul>
+</section>
+<section id="release-information">
+<h2>Release Information<a class="headerlink" href="#release-information" title="Link to this heading"></a></h2>
+<ul>
+<li><dl>
+<dt><strong>Author</strong>:</dt><dd><p>Ali Degirmenci, MSc, PhD Ankara Yildirim Beyazit University, Turkey.</p>
+<p>Email: <a class="reference external" href="mailto:alidegirmenci&#37;&#52;&#48;aybu&#46;edu&#46;tr">alidegirmenci<span>&#64;</span>aybu<span>&#46;</span>edu<span>&#46;</span>tr</a></p>
+<p>GitHub: <a class="reference external" href="https://github.com/alidegirmenci">https://github.com/alidegirmenci</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Source Repository</strong>:</dt><dd><p><a class="reference external" href="https://github.com/alidegirmenci/PyXML">https://github.com/alidegirmenci/PyXML</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Documentation</strong>:</dt><dd><p><a class="reference external" href="https://pyxml.readthedocs.io/en/latest/">https://pyxml.readthedocs.io/en/latest/</a></p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Citation</strong>:</dt><dd><p>(not published yet)</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="feedback">
+<h2>Feedback<a class="headerlink" href="#feedback" title="Link to this heading"></a></h2>
+<p>You can contact me at the following e-mail: (<a class="reference external" href="mailto:alidegirmenci&#37;&#52;&#48;aybu&#46;edu&#46;tr">alidegirmenci<span>&#64;</span>aybu<span>&#46;</span>edu<span>&#46;</span>tr</a>).</p>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="import_data.html" class="btn btn-neutral float-right" title="Import Data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Ali Degirmenci.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
